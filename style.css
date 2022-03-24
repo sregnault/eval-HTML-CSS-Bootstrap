@@ -1,7 +1,29 @@
-
+@media  screen and (min-width : 648px) {
+    section {
+        display: flex;
+        flex-direction: row;
+    }
+}
+body {
+    background: #F6C5AF;
+}
+h1 {
+    color: #C2714F;
+    text-align: center;
+}
+nav {
+    background: #E0607E;
+}
+nav ul li{
+    display: inline;
+    margin: 10px;
+}
 ul li {
     list-style-type: none;
 }
 ol li {
     text-decoration: underline;
+}
+aside {
+    border: solid 1px grey;
 }
