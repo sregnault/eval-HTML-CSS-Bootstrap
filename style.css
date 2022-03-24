@@ -4,11 +4,22 @@
         flex-direction: row;
     }
 }
+@media screen and (max-width : 1161px) {
+    .card-text {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow: hidden;
+    }
+    
+}
 body {
     background: #F6C5AF;
 }
 h1 {
     color: #C2714F;
+}
+h1, h2 {
     text-align: center;
 }
 nav {
@@ -21,9 +32,20 @@ nav ul li{
 ul li {
     list-style-type: none;
 }
-ol li {
+ol li h2{
     text-decoration: underline;
+}
+.card {
+    margin-left: 5px;
 }
 aside {
     border: solid 1px grey;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+footer {
+    background: crimson;
+    text-align: center;
+    position: relative;
+    bottom: -30px;
 }
