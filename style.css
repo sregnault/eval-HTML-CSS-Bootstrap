@@ -13,13 +13,18 @@
     }
     
 }
+@media only screen and (min-width : 1162px) {
+    .medium-screen {
+        display : none;
+    }
+}
 body {
     background: #F6C5AF;
 }
 h1 {
     color: #C2714F;
 }
-h1, h2 {
+h1, h2:not(#exception) {
     text-align: center;
 }
 nav {
@@ -48,4 +53,12 @@ footer {
     text-align: center;
     position: relative;
     bottom: -30px;
+}
+.event {
+    border: solid 1px grey;
+    margin: 10px;
+    width: 50em;
+}
+.section {
+    width: 60rem;
 }
